@@ -8,9 +8,9 @@
         Title="MainWindow" Height="450" Width="800" SizeToContent="Height">
     <Grid Margin="5" ShowGridLines="False">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="15*" MinWidth="105"/>
             <ColumnDefinition Width="65*"/>
-            <ColumnDefinition Width="15*"/>
+            <ColumnDefinition Width="15*" MinWidth="100"/>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto"/>
